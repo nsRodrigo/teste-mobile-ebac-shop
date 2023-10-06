@@ -1,5 +1,5 @@
 {
-  "name": "mobile-ebac-shop",
+  "name": "teste-mobile-ebac-shop",
   "version": "1.0.0",
   "description": "Projeto de testes Ebac Mobile Shop",
   "main": "index.js",
@@ -10,13 +10,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@wdio/cli": "^8.15.10"
-  },
-  "devDependencies": {
+    "@wdio/cli": "^8.15.10",
+    "@wdio/dot-reporter": "^8.16.7",
     "@wdio/local-runner": "^8.15.10",
     "@wdio/mocha-framework": "^8.15.10",
-    "@wdio/spec-reporter": "^8.15.10",
+    "allure-commandline": "^2.24.0",
     "appium-uiautomator2-driver": "^2.29.5",
-    "ts-node": "^10.9.1"
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "@wdio/allure-reporter": "^8.16.17",
+    "@wdio/spec-reporter": "^8.16.17"
   }
 }
