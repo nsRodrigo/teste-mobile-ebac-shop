@@ -48,20 +48,6 @@ exports.config = {
             platformVersion: '12.0',
             platformName: 'android',
         }
-    },
-    {
-        'bstack:options': {
-            deviceName: 'Google Pixel 7 Pro',
-            platformVersion: '13.0',
-            platformName: 'android',
-        }
-    },
-    {
-        'bstack:options': {
-            deviceName: 'OnePlus 9',
-            platformVersion: '11.0',
-            platformName: 'android',
-        }
     }],
     commonCapabilities: {
         'bstack:options': {
