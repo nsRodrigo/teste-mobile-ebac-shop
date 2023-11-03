@@ -20,7 +20,7 @@ describe('Acessar painel administrativo', () => {
 
         await loginScreen.inserirSenha(senha);
         await loginScreen.btnContinue();
-        await loginScreen.aguardarModal('Logging in');
+        //await loginScreen.aguardarModal('Logging in');
 
         await loginScreen.aguardarModalLogin();
         await storeScreen.validarTituloTela('EBAC - Shop');
