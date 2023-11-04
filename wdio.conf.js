@@ -39,7 +39,7 @@ exports.config = {
             "browserstack",
             {
                 app: "bs://2a1db267301713f25cdb44eef84179bda3f11d1a",
-                browserstackLocal: true,
+                browserstackLocal: false,
             },
         ],
     ],
