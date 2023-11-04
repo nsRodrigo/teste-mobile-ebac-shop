@@ -8,27 +8,27 @@ exports.config = {
     maxInstances: 10,
     /**
        * Configurações appium 
-       
-      hotname: "localhost",
-      port: 4723,
-      path: "/wd/hub",
-      services: ['appium'],
-      capabilities: [
-          {
-              "platformName": "Android",
-              "appium:platformVersion": "9.0",
-              "appium:deviceName": "pixel-7-pro",
-              "appium:automationName": "UIAutomator2",
-              "appium:app": join(process.cwd(), "./app/android/loja-ebac.v12.apk"),
-              "appium:appWaitActivity":
-                  "com.woocommerce.android.ui.login.LoginActivity",
-          },
-      ],
-      */
+    
+    hotname: "localhost",
+    port: 4723,
+    path: "/wd/hub",
+    services: ['appium'],
+    capabilities: [
+        {
+            "platformName": "Android",
+            "appium:platformVersion": "9.0",
+            "appium:deviceName": "pixel-7-pro",
+            "appium:automationName": "UIAutomator2",
+            "appium:app": join(process.cwd(), "./app/android/loja-ebac.v12.apk"),
+            "appium:appWaitActivity":
+            "com.woocommerce.android.ui.login.LoginActivity",
+        },
+    ],
+*/
 
     /**
      * Configurações browserstack
-     */
+    */
 
     user: "rodrigodonascime_0VdfNJ",
     key: "YA8JqDL8Vst11k46y7PJ",
