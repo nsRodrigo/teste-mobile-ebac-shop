@@ -7,7 +7,7 @@
     "clearAllure": "if [ -d allure-results ]; then rm -Rf allure-results; fi && if [ -d allure-report ]; then rm -Rf allure-report; fi",
     "test": "echo \"Error: no test specified\" && exit 1",
     "wdio": "wdio run ./wdio.conf.js",
-    "jenkinsbs": "npm run clearAllure && npx wdio config/wdio.jenkinsbs.conf.js"
+    "jenkinsbs": "npx wdio config/wdio.jenkinsbs.conf.js"
   },
   "author": "",
   "license": "ISC",
