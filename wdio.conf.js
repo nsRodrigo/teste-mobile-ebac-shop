@@ -2,6 +2,7 @@ const { join } = require("path");
 const allureReporter = require("@wdio/allure-reporter").default;
 const allure = require("allure-commandline");
 
+
 exports.config = {
     specs: ["./test/specs/**/*.js"],
     framework: "mocha",
